@@ -1,2 +1,2 @@
-from .exceptions import *  # NOQA
-from .meteologgerstorage import *  # NOQA
+from simplelogger.exceptions import *  # NOQA
+from simplelogger.meteologgerstorage import *  # NOQA

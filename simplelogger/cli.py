@@ -5,12 +5,11 @@ import sys
 import traceback
 
 import click
-
-from . import meteologgerstorage
-from ._version import __version__
-from .enhydris import Enhydris
-from .exceptions import LoggerToDbError
-from .upgrade import ConfigFile
+from simplelogger import meteologgerstorage
+from simplelogger._version import __version__
+from simplelogger.enhydris import Enhydris
+from simplelogger.exceptions import LoggerToDbError
+from simplelogger.upgrade import ConfigFile
 
 
 class WrongValueError(configparser.Error):

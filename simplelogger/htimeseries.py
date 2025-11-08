@@ -12,7 +12,7 @@ from pandas.tseries.frequencies import to_offset
 
 from textbisect import text_bisect_left
 
-from .timezone_utils import TzinfoFromString
+from simplelogger.timezone_utils import TzinfoFromString
 
 TextFileLike = IO[str]
 FileLike = Union[IO[str], IO[bytes], "_BacktrackableFile"]

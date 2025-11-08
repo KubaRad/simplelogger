@@ -12,7 +12,7 @@ import pandas as pd
 import requests
 from requests import Response, Session
 
-from .htimeseries import HTimeseries
+from simplelogger.htimeseries import HTimeseries
 
 
 class MalformedResponseError(Exception):
